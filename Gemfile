@@ -13,12 +13,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'sprockets_better_errors'
-gem 'rails_12factor'
+
 group :development, :test do
      gem 'sqlite3'
 end
 
 group :production do
      gem 'pg'
-     
+     gem 'rails_12factor'
 end
