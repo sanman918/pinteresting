@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
+gem 'sprockets_better_errors'
 group :development, :test do
      gem 'sqlite3'
 end
