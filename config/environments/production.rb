@@ -82,4 +82,4 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 #required for heroku
-c
+config.action_mailer.default_url_options = { :host => 'http://fathomless-cliffs-2241.herokuapp.com/' }
